@@ -4,7 +4,7 @@
 
 /* betty style doc for function main goes there */
 int main(void)
-	main(a program will assign a random number to the variable n)
+	main(a program will assign a random number to the variable n);
 {
 	int n;
 
