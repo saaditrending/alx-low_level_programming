@@ -1,19 +1,18 @@
 #include <stdio.h>
 
 /**
- *  main - program that prints the alphabets
- *  Return: always (success)
+ * main - a program prints the alphabets
+ * Return: Alwas (Success)
  */
 
 int main(void)
 
-        {
-                char i;
+{
+	char h;
 
-                for (i = 'a'; i <= 'z'; i++)
-                putchar(i);
-                putchar('\n');
-                return (0);
+	for (h = 'a'; h <= 'z'; h++)
+	putchar(h);
+	putchar('\n');
+	return (0);
 
-        }
-~                                
+}
