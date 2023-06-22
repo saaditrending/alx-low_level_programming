@@ -3,13 +3,12 @@
 #include <stdio.h>
 
 /**
- * main - This program will assign a random number to the variable n
+ * main - program that assign a random number to the variable n
  * Return: Always 0 (Sucess)
  */
 
 int main(void)
 {
-	int n;
 
 	int n;
 {
