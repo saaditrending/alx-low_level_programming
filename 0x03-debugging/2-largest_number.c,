@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+ * largest_number -program  returns the largest of 3 numbers
+ * @f: first integer
+ * @g: second integer
+ * @h: third integer
+ * Return: largest number
+ */
+
+int largest_number(int f, int g, int h)
+{
+	int largest;
+
+	if (f >= g && f >= h)
+	{
+		largest = f;
+	}
+	else if (g >= f && g >= h)
+	{
+		largest = g;
+	}
+	else
+	{
+		largest = h;
+	}
+
+	return (largest);
+}
