@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * main - A program that prints the word _putchar
- * Return: 0 (Sucess)
+ * main - print _putchar
+ * Return: 0 (success)
  */
 
-int main(void);
+int main(void)
 {
+
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
