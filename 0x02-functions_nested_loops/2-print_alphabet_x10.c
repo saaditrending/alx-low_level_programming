@@ -1,12 +1,11 @@
 # include "main.h"
 
 /**
- * a program that print _alphabet_x10 - make alphabet
+ * print_alphabet_x10 -  program that print _alphabet_x10
  * Return: void
  */
 
-int print_alphabet_x10(void)
-
+void print_alphabet_x10(void)
 {
 
 	char hf;
