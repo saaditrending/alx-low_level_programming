@@ -1,34 +1,34 @@
 #include "main.h"
 
 /**
- * _atoi - Convert a string to int
+ * _atoi - Changes a string to int
  * @s: string
  * Return: An integer
  */
 
 int _atoi(char *s)
 {
-	int p = 0, q = 1, r = 0;
-	unsigned int u = 0;
+	int w = 0, hp = 1, rp = 0;
+	unsigned int t = 0;
 
-	while (s[p])
+	while (s[w])
 	{
-	if (s[p] == 45)
+	if (s[w] == 45)
 	{
-	q *= -1;
+	hp *= -1;
 	}
-	while (s[p] >= 48 && s[p] <= 57)
+	while (s[w] >= 48 && s[w] <= 57)
 	{
-		q = 1;
-		u = (u * 10) + (s[p] - '0');
-		p++;
+		rp = 1;
+		t = (t * 10) + (s[w] - '0');
+		w++;
 	}
-	if (r == 1)
+	if (rp == 1)
 	{
 	break;
 	}
-	p++;
+	w++;
 	}
-	u *= q;
-	return (u);
+	t *= hp;
+	return (t);
 }
